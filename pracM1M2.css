@@ -1,0 +1,22 @@
+.practice{
+    font-size: 16px;
+    color: #1916dd;
+}
+.heading{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-decoration: underline;
+    text-underline-position: below;
+    text-align: center;
+    
+    background-image: url("../Milestone/Images/practice.jpg");
+    height: 200px;
+}
+div{
+    margin: 10px 10px 10px 10px;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: justify;
+}

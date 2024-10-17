@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.new{
+    /* display: none; It means the content will hide with it's place  */ 
+    /* visibility: hidden; the content will hide with it's place*/
+}
+.block{
+    display: block;
+    border: 1px solid black;
+    
+}
+#bg{
+    height: 500px;
+    background-image: url('../Milestone/Images/mathias-reding-vU9-VO-4Nk0-unsplash.jpg');
+    /* background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+    background-size: cover;
+    
+}

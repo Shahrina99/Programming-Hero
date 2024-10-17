@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 2.5px;
+        }
+        li{
+            color: #0a0709;
+            background-color: #c44886;
+            width: 50%;  /* if we use 50px - it is fixed unit and if we use percentage 50% it will be relative unit */
+        }
+        .Hello,.head{
+            background-color: rgb(255, 198, 92);
+        }
+        #unique,#bold{
+            text-align: center;
+            font-size: 13px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .travel{
+            background-color: #a5cbec;
+            border: 3px solid #0a0a0a;
+            border-radius: 5px;
+            /*margin: 10px 20px; TB RL*/ 
+            /*margin: 10px 20px 30px; T RL B*/ 
+            margin : 10px 20px 30px 40px; /*T R B L will turn in clockwise*/
+            text-align: justify;
+            padding: 10px;
+        }
+        #css{
+            font-size: small;
+        }
+        
+    </style>
+    <link rel="stylesheet" href="External.css">
+</head>
+<body>
+    <header id="bg"> Welcome to learning practice</header>
+    <p style="background-color: #7ab7ec;">Matera, located in the Basilicata region, is one of the oldest continuously inhabited cities in the world.</p>
+    <p class="Hello">Its ancient cave dwellings, known as "Sassi," have been carved into the rocky hillsides for centuries. </p>
+    <p id="unique">Walking through Matera feels like stepping back in time.</p>
+    <p class="Hello">The labyrinth of narrow streets, stone houses, and ancient churches carved into the rock make this city truly unique. </p>
+    <ol>
+        <li>Tea</li>
+        <li>Coffee</li>
+    </ol>
+    <p class="head">This is my first test</p>
+    <p>This is my second test</p>
+    <p class="head">This is my third test</p>
+    <p>This is my fourth test</p>
+    <p id="bold">This is my fifth test</p>
+    <div class="head">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset </p>
+
+    </div>
+    <div class="travel">
+        <h1>The Art of Adventure</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat, nisi non sollicitudin varius, est augue dapibus mauris, sit amet congue magna turpis id velit. In tincidunt nulla eget ipsum venenatis lacinia. Fusce at felis ut mauris facilisis scelerisque.</p>
+    </div>
+    <div class="travel">
+        <h1 class="new">Discovering New Cultures</h1>
+        <p>Lorem ipsum dolor sit amet, <span class="block">consectetur adipiscing</span> elit. Phasellus feugiat, nisi non sollicitudin varius, est augue dapibus mauris, sit amet congue magna turpis id velit. In tincidunt nulla eget ipsum venenatis lacinia. Fusce at felis ut mauris facilisis scelerisque.</p>
+    </div>
+    <div class="travel">
+        <h1> A Journey Through Time</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat, nisi non sollicitudin varius, est augue dapibus mauris, sit amet congue magna turpis id velit. In tincidunt nulla eget ipsum venenatis lacinia. Fusce at felis ut mauris facilisis scelerisque.</p>
+    </div>
+    <h1 id = "css">CSS Box model</h1>
+    <p>It contains Border, Margin , Padding, the content, width, height. The container size increse and decrease for all of these properties.</p>
+
+
+</body>
+</html>
